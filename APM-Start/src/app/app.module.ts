@@ -3,14 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ProductListComponent } from './product/product-list.component';
-
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent, ProductListComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule , FormsModule
   ],
   bootstrap: [AppComponent]
 })

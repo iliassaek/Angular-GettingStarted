@@ -32,7 +32,7 @@
               <th>5 Star Rating</th>
             </tr>
           </thead>
-          <tbody *ngFor="let product of products">
+          <tbody *ngFor="let product of filteredProduct">
             <td><img *ngIf="showImage"
                      [src]='product.imageUrl'
                      [title]='product.productName' 
